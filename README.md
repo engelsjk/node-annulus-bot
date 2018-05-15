@@ -5,7 +5,7 @@
 Meet [@AnnulusBot](https://twitter.com/annulusbot), my first attempt at a [#generativeart](https://twitter.com/hashtag/generativeart?lang=en) bot on Twitter!
 
 # How Does It Work?
-AnnulusBot generates sequences of [annulur segments](https://en.wikipedia.org/wiki/Annulus_(mathematics)), with random thicknesses and spacings of the radial and angulur components. It also uses the top 1000 color palletes from [Colour Lovers](http://www.colourlovers.com/) (provided in JSON format by the [Jam3/nice-color-palettes](https://github.com/Jam3/nice-color-palettes) repo). There are 8 settings that get randomized, either during the initial startup or during the sequenced, radial buildout of the annulur sectors.
+AnnulusBot generates sequences of [annulur segments](https://en.wikipedia.org/wiki/Annulus_(mathematics)), with random thicknesses and spacings of the radial and angulur components. It also uses the top 1000 color palettes from [Colour Lovers](http://www.colourlovers.com/) (provided in JSON format by the [Jam3/nice-color-palettes](https://github.com/Jam3/nice-color-palettes) repo). There are 8 settings that get randomized, either during the initial startup or during the sequenced, radial buildout of the annulur sectors.
 
 Built with Node.js and deployed using AWS Lambda/CloudWatch, AnnulusBot is very similar to my other two Twitter bots, [BrokenArrowBot](https://github.com/engelsjk/node-broken-arrow-bot) and [CupolaBot](https://github.com/engelsjk/node-cupola-bot). 
 
